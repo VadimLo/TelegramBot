@@ -25,7 +25,7 @@ public class Bot extends TelegramLongPollingBot {
      * @param chatId id чата
      * @param s Строка, которую необходимот отправить в качестве сообщения.
      */
-    public synchronized void sendMsg(String chatId, String s) {
+    private synchronized void sendMsg(String chatId, String s) {
         SendMessage sendMessage = new SendMessage();
         sendMessage.enableMarkdown(true);
         sendMessage.setChatId(chatId);
@@ -44,6 +44,7 @@ public class Bot extends TelegramLongPollingBot {
     @Override
     public String getBotUsername() {
         return "VkAudioBot";
+
     }
 
     /**

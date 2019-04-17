@@ -26,7 +26,7 @@
                     <assembleDirectory>target</assembleDirectory>
                     <programs>
                         <program>
-                            <mainClass>com.home.server.TelegramBot</mainClass>
+                            <mainClass>com.soft.vadim.start.AppStart</mainClass>
                             <name>workerBot</name>
                         </program>
                     </programs>
