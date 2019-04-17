@@ -31,7 +31,7 @@
                 <configuration>
 
                     <processTypes>
-                        <web>java $JAVA_OPTS -cp target/classes:target/dependency/AppStart.class</web>
+                        <worker>java $JAVA_OPTS -cp target/classes:target/dependency/AppStart.class</worker>
                     </processTypes>
                 </configuration>
             </plugin>
