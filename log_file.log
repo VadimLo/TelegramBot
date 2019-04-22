@@ -1,0 +1,145 @@
+2019-04-19 12:36:07 INFO  Bot:47 - Exception: 
+org.telegram.telegrambots.exceptions.TelegramApiRequestException: Error sending message: [403] Forbidden: bot was blocked by the user
+	at org.telegram.telegrambots.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:170)
+	at org.telegram.telegrambots.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:24)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:672)
+	at org.telegram.telegrambots.bots.AbsSender.sendMessage(AbsSender.java:64)
+	at com.soft.vadim.bot.Bot.sendMsg(Bot.java:45)
+	at com.soft.vadim.bot.Bot.onUpdateReceived(Bot.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2019-04-19 12:36:13 INFO  Bot:47 - Exception: 
+org.telegram.telegrambots.exceptions.TelegramApiValidationException: ChatId parameter can't be empty in method: SendMessage{chatId='null', text='null', parseMode='null', disableWebPagePreview=null, replyToMessageId=null, replyMarkup=null}
+	at org.telegram.telegrambots.api.methods.send.SendMessage.validate(SendMessage.java:180)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendMethodRequest(DefaultAbsSender.java:711)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:671)
+	at org.telegram.telegrambots.bots.AbsSender.sendMessage(AbsSender.java:64)
+	at com.soft.vadim.bot.Bot.sendMsg(Bot.java:45)
+	at com.soft.vadim.bot.Bot.onUpdateReceived(Bot.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2019-04-19 12:38:31 INFO  Bot:47 - Exception: 
+org.telegram.telegrambots.exceptions.TelegramApiValidationException: ChatId parameter can't be empty in method: SendMessage{chatId='null', text='null', parseMode='null', disableWebPagePreview=null, replyToMessageId=null, replyMarkup=null}
+	at org.telegram.telegrambots.api.methods.send.SendMessage.validate(SendMessage.java:180)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendMethodRequest(DefaultAbsSender.java:711)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:671)
+	at org.telegram.telegrambots.bots.AbsSender.sendMessage(AbsSender.java:64)
+	at com.soft.vadim.bot.Bot.sendMsg(Bot.java:45)
+	at com.soft.vadim.bot.Bot.onUpdateReceived(Bot.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2019-04-19 12:42:24 INFO  Bot:36 - Отправка аудио
+2019-04-19 12:42:24 INFO  Bot:47 - Exception: 
+org.telegram.telegrambots.exceptions.TelegramApiValidationException: ChatId parameter can't be empty in method: SendMessage{chatId='null', text='null', parseMode='null', disableWebPagePreview=null, replyToMessageId=null, replyMarkup=null}
+	at org.telegram.telegrambots.api.methods.send.SendMessage.validate(SendMessage.java:180)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendMethodRequest(DefaultAbsSender.java:711)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:671)
+	at org.telegram.telegrambots.bots.AbsSender.sendMessage(AbsSender.java:64)
+	at com.soft.vadim.bot.Bot.sendMsg(Bot.java:45)
+	at com.soft.vadim.bot.Bot.onUpdateReceived(Bot.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2019-04-19 12:43:55 INFO  Bot:40 - check else
+2019-04-19 12:44:12 INFO  Bot:36 - Отправка аудио
+2019-04-19 12:44:12 INFO  Bot:48 - Exception: 
+org.telegram.telegrambots.exceptions.TelegramApiValidationException: ChatId parameter can't be empty in method: SendMessage{chatId='null', text='null', parseMode='null', disableWebPagePreview=null, replyToMessageId=null, replyMarkup=null}
+	at org.telegram.telegrambots.api.methods.send.SendMessage.validate(SendMessage.java:180)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendMethodRequest(DefaultAbsSender.java:711)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:671)
+	at org.telegram.telegrambots.bots.AbsSender.sendMessage(AbsSender.java:64)
+	at com.soft.vadim.bot.Bot.sendMsg(Bot.java:46)
+	at com.soft.vadim.bot.Bot.onUpdateReceived(Bot.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2019-04-19 12:46:54 INFO  Bot:45 - check else
+2019-04-19 12:47:07 INFO  Bot:36 - Отправка аудио
+2019-04-19 12:54:29 INFO  Bot:36 - Отправка аудио
+2019-04-19 13:18:40 INFO  Bot:36 - Отправка аудио
+2019-04-19 13:46:20 INFO  Bot:39 - Отправка аудио
+2019-04-20 00:07:10 INFO  Bot:52 - check else
+2019-04-20 00:07:39 INFO  Bot:39 - Отправка аудио
+2019-04-20 12:02:22 INFO  Bot:68 - check else
+2019-04-20 12:03:53 INFO  Bot:55 - Отправка аудио
+2019-04-20 12:07:22 INFO  Bot:55 - Отправка аудио
+2019-04-20 12:20:17 INFO  Bot:65 - check else
+2019-04-20 12:20:47 INFO  Bot:65 - check else
+2019-04-20 12:20:57 INFO  Bot:65 - check else
+2019-04-20 12:21:14 INFO  Bot:65 - check else
+2019-04-20 12:21:14 INFO  Bot:72 - Exception: 
+org.telegram.telegrambots.exceptions.TelegramApiRequestException: Error sending message: [400] Bad Request: message is too long
+	at org.telegram.telegrambots.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:170)
+	at org.telegram.telegrambots.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:24)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:672)
+	at org.telegram.telegrambots.bots.AbsSender.sendMessage(AbsSender.java:64)
+	at com.soft.vadim.bot.Bot.sendMsg(Bot.java:70)
+	at com.soft.vadim.bot.Bot.onUpdateReceived(Bot.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2019-04-20 12:21:15 INFO  Bot:65 - check else
+2019-04-20 12:21:15 INFO  Bot:72 - Exception: 
+org.telegram.telegrambots.exceptions.TelegramApiRequestException: Error sending message: [400] Bad Request: message is too long
+	at org.telegram.telegrambots.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:170)
+	at org.telegram.telegrambots.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:24)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:672)
+	at org.telegram.telegrambots.bots.AbsSender.sendMessage(AbsSender.java:64)
+	at com.soft.vadim.bot.Bot.sendMsg(Bot.java:70)
+	at com.soft.vadim.bot.Bot.onUpdateReceived(Bot.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2019-04-20 12:21:15 INFO  Bot:65 - check else
+2019-04-20 12:21:15 INFO  Bot:72 - Exception: 
+org.telegram.telegrambots.exceptions.TelegramApiRequestException: Error sending message: [400] Bad Request: message is too long
+	at org.telegram.telegrambots.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:170)
+	at org.telegram.telegrambots.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:24)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:672)
+	at org.telegram.telegrambots.bots.AbsSender.sendMessage(AbsSender.java:64)
+	at com.soft.vadim.bot.Bot.sendMsg(Bot.java:70)
+	at com.soft.vadim.bot.Bot.onUpdateReceived(Bot.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2019-04-20 12:21:15 INFO  Bot:65 - check else
+2019-04-20 12:21:15 INFO  Bot:72 - Exception: 
+org.telegram.telegrambots.exceptions.TelegramApiRequestException: Error sending message: [400] Bad Request: message is too long
+	at org.telegram.telegrambots.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:170)
+	at org.telegram.telegrambots.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:24)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:672)
+	at org.telegram.telegrambots.bots.AbsSender.sendMessage(AbsSender.java:64)
+	at com.soft.vadim.bot.Bot.sendMsg(Bot.java:70)
+	at com.soft.vadim.bot.Bot.onUpdateReceived(Bot.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2019-04-20 12:21:16 INFO  Bot:65 - check else
+2019-04-20 12:21:16 INFO  Bot:72 - Exception: 
+org.telegram.telegrambots.exceptions.TelegramApiRequestException: Error sending message: [400] Bad Request: message is too long
+	at org.telegram.telegrambots.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:170)
+	at org.telegram.telegrambots.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:24)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:672)
+	at org.telegram.telegrambots.bots.AbsSender.sendMessage(AbsSender.java:64)
+	at com.soft.vadim.bot.Bot.sendMsg(Bot.java:70)
+	at com.soft.vadim.bot.Bot.onUpdateReceived(Bot.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2019-04-20 12:21:16 INFO  Bot:65 - check else
+2019-04-20 12:21:16 INFO  Bot:72 - Exception: 
+org.telegram.telegrambots.exceptions.TelegramApiRequestException: Error sending message: [400] Bad Request: message is too long
+	at org.telegram.telegrambots.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:170)
+	at org.telegram.telegrambots.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:24)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:672)
+	at org.telegram.telegrambots.bots.AbsSender.sendMessage(AbsSender.java:64)
+	at com.soft.vadim.bot.Bot.sendMsg(Bot.java:70)
+	at com.soft.vadim.bot.Bot.onUpdateReceived(Bot.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2019-04-20 12:21:16 INFO  Bot:65 - check else
+2019-04-20 12:21:42 INFO  Bot:65 - check else
