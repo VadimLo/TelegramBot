@@ -143,3 +143,148 @@ org.telegram.telegrambots.exceptions.TelegramApiRequestException: Error sending 
 	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
 2019-04-20 12:21:16 INFO  Bot:65 - check else
 2019-04-20 12:21:42 INFO  Bot:65 - check else
+2019-04-23 00:28:00 INFO  Bot:35 - java.io.IOException: Server returned HTTP response code: 500 for URL: https://downloadmusicvk.ru/audio/download?aid=138499579_456239772&artist=Billie%2BEilish&title=bad%2Bguy&duration=3%3A14&secDuration=194&url=https%3A%2F%2Fcs1-68v4.vkuseraudio.net%2Fp11%2F61047b431c5cc9.mp3
+2019-04-23 00:28:00 INFO  Bot:35 - java.io.IOException: Server returned HTTP response code: 500 for URL: https://downloadmusicvk.ru/audio/download?aid=138499579_456239772&artist=Billie%2BEilish&title=bad%2Bguy&duration=3%3A14&secDuration=194&url=https%3A%2F%2Fcs1-68v4.vkuseraudio.net%2Fp11%2F61047b431c5cc9.mp3
+2019-04-23 00:28:01 INFO  Bot:35 - java.io.IOException: Server returned HTTP response code: 500 for URL: https://downloadmusicvk.ru/audio/download?aid=138499579_456239772&artist=Billie%2BEilish&title=bad%2Bguy&duration=3%3A14&secDuration=194&url=https%3A%2F%2Fcs1-68v4.vkuseraudio.net%2Fp11%2F61047b431c5cc9.mp3
+2019-04-23 00:28:24 INFO  Bot:35 - java.io.IOException: Server returned HTTP response code: 500 for URL: https://downloadmusicvk.ru/audio/download?aid=138499579_456239772&artist=Billie%2BEilish&title=bad%2Bguy&duration=3%3A14&secDuration=194&url=https%3A%2F%2Fcs1-68v4.vkuseraudio.net%2Fp11%2F61047b431c5cc9.mp3
+2019-04-23 00:30:00 INFO  Bot:35 - java.io.IOException: Server returned HTTP response code: 500 for URL: https://downloadmusicvk.ru/audio/download?aid=138499579_456239772&artist=Billie%2BEilish&title=bad%2Bguy&duration=3%3A14&secDuration=194&url=https%3A%2F%2Fcs1-68v4.vkuseraudio.net%2Fp11%2F61047b431c5cc9.mp3
+2019-04-23 00:32:06 INFO  Bot:66 - check else
+2019-04-23 00:32:11 INFO  Bot:66 - check else
+2019-04-23 00:32:16 INFO  Bot:56 - Отправка аудио
+2019-04-23 00:35:40 INFO  Bot:66 - check else
+2019-04-23 00:35:48 INFO  Bot:56 - Отправка аудио
+2019-04-23 00:36:18 INFO  Bot:56 - Отправка аудио
+2019-04-23 00:37:46 INFO  Bot:56 - Отправка аудио
+2019-04-23 01:16:46 INFO  Bot:66 - check else
+2019-04-23 01:16:46 INFO  Bot:73 - Exception: 
+org.telegram.telegrambots.exceptions.TelegramApiRequestException: Error sending message: [400] Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 95
+	at org.telegram.telegrambots.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:170)
+	at org.telegram.telegrambots.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:24)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:672)
+	at org.telegram.telegrambots.bots.AbsSender.sendMessage(AbsSender.java:64)
+	at com.soft.vadim.bot.Bot.sendMsg(Bot.java:71)
+	at com.soft.vadim.bot.Bot.onUpdateReceived(Bot.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2019-04-23 01:17:02 INFO  Bot:66 - check else
+2019-04-23 12:15:21 INFO  Bot:66 - check else
+2019-04-23 21:57:52 INFO  Bot:35 - java.io.IOException: Server returned HTTP response code: 400 for URL: https://vrit.me/download.php?artist=charlie xcx&title=boom clap!&url=https://cs1-72v4.vkuseraudio.net/p10/7c583d6106a436.mp3?extra=QmqYpze_yxVrTqVTnKN2GYVdC-YXneUXalfXMYwlq2k72Rw57uf1jumVrsHbK2Mq_9XqJtH6BdfG03o3rw0DKe_ndb3PuR8NgpQZxWDO7Gjepl7apqKJ_2O3cw-wfBjBKq7bAJ1gQlqDeE07mHWTkk1U
+2019-04-23 22:00:32 INFO  Bot:68 - check else
+2019-04-23 22:00:53 INFO  Bot:58 - Отправка аудио
+2019-04-23 22:00:53 INFO  Bot:65 - Exception: 
+org.telegram.telegrambots.exceptions.TelegramApiRequestException: Error sending audio: [400] Bad Request: file must be non-empty
+	at org.telegram.telegrambots.api.methods.send.SendAudio.deserializeResponse(SendAudio.java:202)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendAudio(DefaultAbsSender.java:416)
+	at com.soft.vadim.bot.Bot.sendMsg(Bot.java:63)
+	at com.soft.vadim.bot.Bot.onUpdateReceived(Bot.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2019-04-23 22:07:36 INFO  Bot:35 - java.io.IOException: Server returned HTTP response code: 400 for URL: https://vrit.me//download.php?artist=charlie xcx&amp;title=boom clap!&amp;url=https://cs1-72v4.vkuseraudio.net/p10/7c583d6106a436.mp3?extra=QmqYpze_yxVrTqVTnKN2GYVdC-YXneUXalfXMYwlq2k72Rw57uf1jumVrsHbK2Mq_9XqJtH6BdfG03o3rw0DKe_ndb3PuR8NgpQZxWDO7Gjepl7apqKJ_2O3cw-wfBjBKq7bAJ1gQlqDeE07mHWTkk1U
+2019-04-23 22:13:29 INFO  Bot:71 - check else
+2019-04-23 22:13:39 INFO  Bot:61 - Отправка аудио
+2019-04-23 22:13:39 INFO  Bot:68 - Exception: 
+org.telegram.telegrambots.exceptions.TelegramApiRequestException: Error sending audio: [400] Bad Request: file must be non-empty
+	at org.telegram.telegrambots.api.methods.send.SendAudio.deserializeResponse(SendAudio.java:202)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendAudio(DefaultAbsSender.java:416)
+	at com.soft.vadim.bot.Bot.sendMsg(Bot.java:66)
+	at com.soft.vadim.bot.Bot.onUpdateReceived(Bot.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2019-04-23 22:14:50 INFO  Bot:71 - check else
+2019-04-23 22:20:13 INFO  Bot:71 - check else
+2019-04-23 22:20:19 INFO  Bot:61 - Отправка аудио
+2019-04-23 22:25:21 INFO  Bot:61 - Отправка аудио
+2019-04-23 22:25:22 INFO  Bot:68 - Exception: 
+org.telegram.telegrambots.exceptions.TelegramApiRequestException: Error sending audio: [400] Bad Request: file must be non-empty
+	at org.telegram.telegrambots.api.methods.send.SendAudio.deserializeResponse(SendAudio.java:202)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendAudio(DefaultAbsSender.java:416)
+	at com.soft.vadim.bot.Bot.sendMsg(Bot.java:66)
+	at com.soft.vadim.bot.Bot.onUpdateReceived(Bot.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2019-04-23 22:26:52 INFO  Bot:61 - Отправка аудио
+2019-04-23 22:26:52 INFO  Bot:68 - Exception: 
+org.telegram.telegrambots.exceptions.TelegramApiRequestException: Error sending audio: [400] Bad Request: file must be non-empty
+	at org.telegram.telegrambots.api.methods.send.SendAudio.deserializeResponse(SendAudio.java:202)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendAudio(DefaultAbsSender.java:416)
+	at com.soft.vadim.bot.Bot.sendMsg(Bot.java:66)
+	at com.soft.vadim.bot.Bot.onUpdateReceived(Bot.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2019-04-23 22:32:31 INFO  Bot:72 - check else
+2019-04-23 22:32:41 INFO  Bot:62 - Отправка аудио
+2019-04-23 22:32:41 INFO  Bot:69 - Exception: 
+org.telegram.telegrambots.exceptions.TelegramApiRequestException: Error sending audio: [400] Bad Request: file must be non-empty
+	at org.telegram.telegrambots.api.methods.send.SendAudio.deserializeResponse(SendAudio.java:202)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendAudio(DefaultAbsSender.java:416)
+	at com.soft.vadim.bot.Bot.sendMsg(Bot.java:67)
+	at com.soft.vadim.bot.Bot.onUpdateReceived(Bot.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2019-04-23 22:35:31 INFO  Bot:62 - Отправка аудио
+2019-04-23 22:35:32 INFO  Bot:69 - Exception: 
+org.telegram.telegrambots.exceptions.TelegramApiRequestException: Error sending audio: [400] Bad Request: file must be non-empty
+	at org.telegram.telegrambots.api.methods.send.SendAudio.deserializeResponse(SendAudio.java:202)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendAudio(DefaultAbsSender.java:416)
+	at com.soft.vadim.bot.Bot.sendMsg(Bot.java:67)
+	at com.soft.vadim.bot.Bot.onUpdateReceived(Bot.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2019-04-23 22:35:46 INFO  Bot:72 - check else
+2019-04-23 22:35:56 INFO  Bot:62 - Отправка аудио
+2019-04-23 22:35:56 INFO  Bot:69 - Exception: 
+org.telegram.telegrambots.exceptions.TelegramApiRequestException: Error sending audio: [400] Bad Request: file must be non-empty
+	at org.telegram.telegrambots.api.methods.send.SendAudio.deserializeResponse(SendAudio.java:202)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendAudio(DefaultAbsSender.java:416)
+	at com.soft.vadim.bot.Bot.sendMsg(Bot.java:67)
+	at com.soft.vadim.bot.Bot.onUpdateReceived(Bot.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2019-04-23 22:46:52 INFO  Bot:72 - check else
+2019-04-23 22:46:56 INFO  Bot:62 - Отправка аудио
+2019-04-23 22:46:56 INFO  Bot:69 - Exception: 
+org.telegram.telegrambots.exceptions.TelegramApiRequestException: Error sending audio: [400] Bad Request: file must be non-empty
+	at org.telegram.telegrambots.api.methods.send.SendAudio.deserializeResponse(SendAudio.java:202)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendAudio(DefaultAbsSender.java:416)
+	at com.soft.vadim.bot.Bot.sendMsg(Bot.java:67)
+	at com.soft.vadim.bot.Bot.onUpdateReceived(Bot.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2019-04-23 23:08:56 INFO  Bot:35 - java.io.IOException: Server returned HTTP response code: 500 for URL: https://downloadmusicvk.ru/audio/download?aid=138499579_456239772&artist=Billie%2BEilish&title=bad%2Bguy&duration=3%3A14&secDuration=194&url=https%3A%2F%2Fcs1-68v4.vkuseraudio.net%2Fp11%2F61047b431c5cc9.mp3
+2019-04-23 23:10:20 INFO  Bot:35 - java.io.IOException: Server returned HTTP response code: 500 for URL: https://downloadmusicvk.ru/audio/download?aid=138499579_456239772&artist=Billie%2BEilish&title=bad%2Bguy&duration=3%3A14&secDuration=194&url=https%3A%2F%2Fcs1-68v4.vkuseraudio.net%2Fp11%2F61047b431c5cc9.mp3
+2019-04-23 23:11:18 INFO  Bot:72 - check else
+2019-04-23 23:12:03 INFO  Bot:72 - check else
+2019-04-23 23:12:11 INFO  Bot:62 - Отправка аудио
+2019-04-23 23:12:11 INFO  Bot:69 - Exception: 
+org.telegram.telegrambots.exceptions.TelegramApiRequestException: Error sending audio: [400] Bad Request: file must be non-empty
+	at org.telegram.telegrambots.api.methods.send.SendAudio.deserializeResponse(SendAudio.java:202)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendAudio(DefaultAbsSender.java:416)
+	at com.soft.vadim.bot.Bot.sendMsg(Bot.java:67)
+	at com.soft.vadim.bot.Bot.onUpdateReceived(Bot.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2019-05-01 15:28:06 INFO  Bot:85 - default
+2019-05-01 15:28:18 INFO  Bot:74 - 1 check
+2019-05-01 15:28:19 INFO  Bot:81 - Exception: 
+org.telegram.telegrambots.exceptions.TelegramApiRequestException: Error sending message: [400] Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 95
+	at org.telegram.telegrambots.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:170)
+	at org.telegram.telegrambots.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:24)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:672)
+	at org.telegram.telegrambots.bots.AbsSender.sendMessage(AbsSender.java:64)
+	at com.soft.vadim.bot.Bot.sendMsg(Bot.java:79)
+	at com.soft.vadim.bot.Bot.onUpdateReceived(Bot.java:33)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+2019-05-01 15:32:18 INFO  Bot:85 - default
+2019-05-01 15:32:30 INFO  Bot:74 - 1 check
