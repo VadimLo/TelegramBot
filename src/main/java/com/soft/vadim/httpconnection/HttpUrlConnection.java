@@ -1,5 +1,8 @@
 package com.soft.vadim.httpconnection;
 
+import com.soft.vadim.bot.Bot;
+import org.apache.log4j.Logger;
+
 import javax.net.ssl.HttpsURLConnection;
 import java.io.*;
 import java.net.HttpURLConnection;
@@ -7,9 +10,8 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 public class HttpUrlConnection {
+    private final static Logger LOG = Logger.getLogger(HttpUrlConnection.class);
     public void sendGet(String USER_AGENT,String url) throws Exception {
-
-
 
         URL obj = new URL(url);
         HttpURLConnection con = (HttpURLConnection) obj.openConnection();
@@ -20,18 +22,12 @@ public class HttpUrlConnection {
         //add request header
         con.setRequestProperty("User-Agent", USER_AGENT);
 
+        LOG.info("\nSending 'GET' request to URL : " + url);
 
-
-        int responseCode = con.getResponseCode();
-        System.out.println("\nSending 'GET' request to URL : " + url);
-        System.out.println("Response Code : " + responseCode);
-
-        BufferedReader in = new BufferedReader(
-                new InputStreamReader(con.getInputStream()));
 
 
         InputStream is = new BufferedInputStream(con.getInputStream());
-        File file = new File("src\\main\\resources\\request.txt");
+        File file = new File("src\\main\\resources\\request.json");
 
         OutputStream outputStream = new FileOutputStream(file);
 
@@ -39,18 +35,7 @@ public class HttpUrlConnection {
         outputStream.write(is.readAllBytes());
 
         outputStream.close();
-        //OutputStream outputStream = new BufferedOutputStream()
 
-        String inputLine;
-        StringBuilder response = new StringBuilder();
-
-        while ((inputLine = in.readLine()) != null) {
-            response.append(inputLine);
-        }
-        in.close();
-
-        //print result
-        System.out.println(response.toString());
 
     }
 

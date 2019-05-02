@@ -3,12 +3,11 @@ package com.soft.vadim.test.httpconnectiontest;
 import com.soft.vadim.httpconnection.HttpUrlConnection;
 import org.junit.Test;
 
+
 import java.io.*;
-import java.net.MalformedURLException;
+
 import java.net.URL;
 import java.net.URLConnection;
-import java.nio.file.Files;
-import java.nio.file.StandardCopyOption;
 
 public class HttpUrlConnectionTest {
     @Test
@@ -16,8 +15,7 @@ public class HttpUrlConnectionTest {
 //
 //
         String url = " https://downloadmusicvk.ru/audio/download?aid=138499579_456239772&artist=Billie%2BEilish&title=bad%2Bguy&duration=3%3A14&secDuration=194&url=https%3A%2F%2Fcs1-68v4.vkuseraudio.net%2Fp11%2F61047b431c5cc9.mp3";
-//
-//
+
         URLConnection conn = new URL(url).openConnection();
         InputStream is = conn.getInputStream();
 
@@ -53,7 +51,7 @@ public class HttpUrlConnectionTest {
 
     @Test
     public void shouldAuthVk() {
-        String url = "http://kissvk.com/";
+        String url = "http://94.142.142.113/api/song/user/get_songs/138499579?origin=kissvk.com&page=0";
         HttpUrlConnection http = new HttpUrlConnection();
         String USER_AGENT = "Chrome";
         System.out.println("Testing 1 - Send Http GET request");
@@ -64,6 +62,11 @@ public class HttpUrlConnectionTest {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    @Test
+    public  void shouldDowwmloadHtmlToDoc(){
+        //Document doc = Jsoup.connect("http://example.com/").get();
     }
 }
 

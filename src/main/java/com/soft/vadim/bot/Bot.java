@@ -50,7 +50,7 @@ public class Bot extends TelegramLongPollingBot {
         String url3 = "https://vrit.me/download.php?artist=charlie%20xcx&title=boom%20clap!&url=https://cs1-72v4.vkuseraudio.net/p10/7c583d6106a436.mp3?extra=QmqYpze_yxVrTqVTnKN2GYVdC-YXneUXalfXMYwlq2k72Rw57uf1jumVrsHbK2Mq_9XqJtH6BdfG03o3rw0DKe_ndb3PuR8NgpQZxWDO7Gjepl7apqKJ_2O3cw-wfBjBKq7bAJ1gQlqDeE07mHWTkk1U";
         String url4 = "https://vrit.me/download.php?artist=Linkin%20Park&title=Nobody%27s%20Listening&url=https://cs1-78v4.vkuseraudio.net/p10/f013727acb2d1c.mp3?extra=o60gKNjjZslYmKvf2MMkk5T4rHPVvDEZIGqZlGjiUboYpKkpIjAd2hGS6PWrQYyYZDuDONn7_-J4oEk0bYBvTd9tCJfyWBRnIWvMZnxtOmzUldpZEey8GKkgMmVmQ-16YCWZCW7YcyaXmfhyIRboSEvB";
 
-
+        String url5 ="http://94.142.142.113/api/song/user/get_songs/138499579?origin=kissvk.com&page=0";
         String word = "  а также ты ПИДОР";
         SendMessage sendMessage = new SendMessage();
         SendAudio sendAudio = new SendAudio();
