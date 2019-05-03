@@ -1,17 +1,17 @@
 package com.soft.vadim.bot;
 
+import com.soft.vadim.director.Director;
 import com.soft.vadim.download.Download;
 import org.apache.log4j.Logger;
-import org.telegram.telegrambots.api.methods.send.SendAudio;
-import org.telegram.telegrambots.api.methods.send.SendMessage;
-import org.telegram.telegrambots.api.objects.Message;
-import org.telegram.telegrambots.api.objects.Update;
-import org.telegram.telegrambots.api.objects.media.InputMedia;
-import org.telegram.telegrambots.api.objects.replykeyboard.ReplyKeyboardMarkup;
-import org.telegram.telegrambots.api.objects.replykeyboard.buttons.KeyboardRow;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
-import org.telegram.telegrambots.exceptions.TelegramApiException;
-import org.telegram.telegrambots.generics.Webhook;
+import org.telegram.telegrambots.meta.api.methods.send.SendAudio;
+import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
+import org.telegram.telegrambots.meta.api.objects.Message;
+import org.telegram.telegrambots.meta.api.objects.Update;
+import org.telegram.telegrambots.meta.api.objects.replykeyboard.ReplyKeyboardMarkup;
+import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.KeyboardRow;
+import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
+
 
 import java.io.File;
 import java.io.IOException;
@@ -26,24 +26,27 @@ import java.util.List;
 public class Bot extends TelegramLongPollingBot {
     private final static Logger LOG = Logger.getLogger(Bot.class);
 
-    /**
-     * Метод для приема сообщений.
-     *
-     * @param update Содержит сообщение от пользователя.
-     */
+            /**
+             * Метод для приема сообщений.
+             *
+             * @param update Содержит сообщение от пользователя.
+             */
     @Override
     public void onUpdateReceived(Update update) {
-        Message message = update.getMessage();
+
+                Message message = update.getMessage();
 
 
         if (message.hasText()) {
             switch (message.getText()) {
                 case "/start":
                     sendMsg(message, "Это команда старт!");
+
+
                     System.out.println(message.getText());
                     break;
                 case "Команда 1":
-                    sendMsg(message, "Это команда 1");
+                    sendMsg(message, Director.parseJsonToObj().getSongs().get(0).toString());
                     System.out.println(message.getText());
                     break;
                 case "Команда 2":
@@ -51,7 +54,7 @@ public class Bot extends TelegramLongPollingBot {
                     System.out.println(message.getText());
                     break;
                 default:
-                    sendMsg(message, "Это дефолт! Брейк!");
+                    sendMsg(message, "Это дефолт! ");
                     System.out.println(message.getText());
                     break;
             }
@@ -104,11 +107,17 @@ public class Bot extends TelegramLongPollingBot {
         sendMessage.setChatId(message.getChatId().toString());
         //sendMessage.setReplyToMessageId(message.getMessageId());
         sendMessage.setText(s);
+
         try {
             sendMessage(sendMessage);
         } catch (TelegramApiException e) {
             e.printStackTrace();
         }
+    }
+
+
+    private synchronized void SendGif(){
+
     }
 //        URLConnection conn = new URL(url4).openConnection();
 //        InputStream is = conn.getInputStream();
@@ -168,5 +177,6 @@ public class Bot extends TelegramLongPollingBot {
     public String getBotToken() {
         return "811757014:AAFk8K3UcZ1AhuN3404qI00koKGDinzoKTc";
     }
+
 
 }

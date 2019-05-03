@@ -29,7 +29,6 @@ public class Song {
 
     /**
      * No args constructor for use in serialization
-     *
      */
     public Song() {
     }
@@ -137,4 +136,9 @@ public class Song {
         return this;
     }
 
+    @Override
+    public String toString() {
+        return artist + " - " + title + "  " + duration;
+
+    }
 }
