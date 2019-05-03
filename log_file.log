@@ -294,3 +294,62 @@ Sending 'GET' request to URL : http://94.142.142.113/api/song/user/get_songs/138
 Sending 'GET' request to URL : http://94.142.142.113/api/song/user/get_songs/138499579?origin=kissvk.com&page=0
 2019-05-03 13:13:23 INFO  HttpUrlConnection:25 - 
 Sending 'GET' request to URL : http://94.142.142.113/api/song/user/get_songs/138499579?origin=kissvk.com&page=0
+2019-05-03 14:06:02 INFO  Bot:56 - javax.net.ssl.SSLException: Read timed out
+2019-05-03 14:08:20 INFO  Bot:56 - javax.net.ssl.SSLException: Connection reset
+2019-05-03 14:09:04 INFO  Bot:56 - java.net.ConnectException: Connection timed out: connect
+2019-05-03 14:10:57 INFO  Bot:56 - javax.net.ssl.SSLException: Read timed out
+2019-05-03 14:13:11 INFO  Bot:36 - java.net.ConnectException: Connection timed out: connect
+2019-05-03 14:19:02 INFO  Bot:90 - default
+2019-05-03 14:19:02 INFO  Bot:90 - default
+2019-05-03 14:19:03 INFO  Bot:90 - default
+2019-05-03 14:19:03 INFO  Bot:90 - default
+2019-05-03 14:19:03 INFO  Bot:90 - default
+2019-05-03 14:19:03 INFO  Bot:90 - default
+2019-05-03 16:32:35 INFO  Bot:90 - default
+2019-05-03 16:33:01 INFO  Bot:36 - javax.net.ssl.SSLException: Read timed out
+2019-05-03 16:34:43 INFO  Bot:85 - default
+2019-05-03 16:35:04 INFO  Bot:92 - Exception: 
+org.telegram.telegrambots.exceptions.TelegramApiException: Unable to execute sendmessage method
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:674)
+	at org.telegram.telegrambots.bots.AbsSender.sendMessage(AbsSender.java:64)
+	at com.soft.vadim.bot.Bot.sendMsg(Bot.java:90)
+	at com.soft.vadim.bot.Bot.onUpdateReceived(Bot.java:34)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.telegram.telegrambots.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:306)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to api.telegram.org:443 [api.telegram.org/149.154.167.220] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:359)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendHttpPostRequest(DefaultAbsSender.java:720)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendMethodRequest(DefaultAbsSender.java:716)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:671)
+	... 6 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:339)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 18 more
+2019-05-03 16:38:16 INFO  Bot:85 - default
+2019-05-03 16:38:21 INFO  Bot:85 - default
+2019-05-03 16:38:26 INFO  Bot:85 - default
+2019-05-03 16:38:27 INFO  Bot:75 - 1 check
+2019-05-03 16:39:38 INFO  Bot:85 - default
+2019-05-03 16:39:41 INFO  Bot:85 - default
+2019-05-03 16:46:25 INFO  Bot:106 - default
+2019-05-03 16:46:26 INFO  Bot:106 - default
+2019-05-03 16:46:41 INFO  Bot:106 - default
+2019-05-03 16:46:41 INFO  Bot:106 - default

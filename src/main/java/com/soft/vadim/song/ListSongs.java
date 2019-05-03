@@ -23,7 +23,7 @@ public class ListSongs {
     public ListSongs() {
     }
 
-
+    // надо выпилить vkUserID
     public ListSongs(List<Song> songs, int vkUserId, int pagesCount) {
         super();
         this.songs = songs;
