@@ -3,7 +3,10 @@ package com.soft.vadim.bot;
 import com.soft.vadim.director.Director;
 import com.soft.vadim.download.Download;
 import org.apache.log4j.Logger;
+
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
+import org.telegram.telegrambots.meta.TelegramBotsApi;
+import org.telegram.telegrambots.meta.api.methods.send.SendAnimation;
 import org.telegram.telegrambots.meta.api.methods.send.SendAudio;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Message;
@@ -50,7 +53,8 @@ public class Bot extends TelegramLongPollingBot {
                     System.out.println(message.getText());
                     break;
                 case "Команда 2":
-                    sendMsg(message, "Это команда 2");
+
+                    sendGif(message);
                     System.out.println(message.getText());
                     break;
                 default:
@@ -73,7 +77,7 @@ public class Bot extends TelegramLongPollingBot {
 //        String url = "https://downloadmusicvk.ru/audio/download?aid=138499579_456239772&artist=Billie%2BEilish&title=bad%2Bguy&duration=3%3A14&secDuration=194&url=https%3A%2F%2Fcs1-68v4.vkuseraudio.net%2Fp11%2F61047b431c5cc9.mp3";
 //
 //        String url3 = "https://vrit.me/download.php?artist=charlie%20xcx&title=boom%20clap!&url=https://cs1-72v4.vkuseraudio.net/p10/7c583d6106a436.mp3?extra=QmqYpze_yxVrTqVTnKN2GYVdC-YXneUXalfXMYwlq2k72Rw57uf1jumVrsHbK2Mq_9XqJtH6BdfG03o3rw0DKe_ndb3PuR8NgpQZxWDO7Gjepl7apqKJ_2O3cw-wfBjBKq7bAJ1gQlqDeE07mHWTkk1U";
-//        String url4 = "https://vrit.me/download.php?artist=Linkin%20Park&title=Nobody%27s%20Listening&url=https://cs1-78v4.vkuseraudio.net/p10/f013727acb2d1c.mp3?extra=o60gKNjjZslYmKvf2MMkk5T4rHPVvDEZIGqZlGjiUboYpKkpIjAd2hGS6PWrQYyYZDuDONn7_-J4oEk0bYBvTd9tCJfyWBRnIWvMZnxtOmzUldpZEey8GKkgMmVmQ-16YCWZCW7YcyaXmfhyIRboSEvB";
+        String url4 = "http://185.87.49.87/api/song/download/get/10/The%20Script%20feat.%20will.i.am-Hall%20of%20Fame-kissvk.com.mp3?origin=kissvk.com&url=https%3A%2F%2Fcs1-59v4.vkuseraudio.net%2Fp22%2Fdbef5e734e97c9.mp3%3Fextra%3DxqMIm9RLUjN-Li0sFVOanhZK3H0rQc25OMXGw64XVxcswiwS1Sh3CFVrEXF2pz-4J_GsB18palnOan-NLRNB24xhjnCJUkrjw64QZrWjRZnM8VLBlgGRduHZD6usFHk8UqT-tIDE0brHw_sNbhqeWA&artist=The%20Script%20feat.%20will.i.am&title=Hall%20of%20Fame&index=6";
 
 
         SendMessage sendMessage = new SendMessage();
@@ -109,15 +113,22 @@ public class Bot extends TelegramLongPollingBot {
         sendMessage.setText(s);
 
         try {
-            sendMessage(sendMessage);
+            execute(sendMessage);
         } catch (TelegramApiException e) {
             e.printStackTrace();
         }
     }
 
 
-    private synchronized void SendGif(){
-
+    private synchronized void sendGif(Message message){
+        SendAnimation sendAnimation =new SendAnimation();
+        sendAnimation.setAnimation(new File("D:\\Java\\TelegramBot\\src\\main\\resources\\a43cf152bf5415ec9de23a8720cb2d30_187945_1556570096.gif"));
+        sendAnimation.setChatId(message.getChatId());
+        try {
+            execute(sendAnimation);
+        } catch (TelegramApiException e) {
+            e.printStackTrace();
+        }
     }
 //        URLConnection conn = new URL(url4).openConnection();
 //        InputStream is = conn.getInputStream();
@@ -177,6 +188,5 @@ public class Bot extends TelegramLongPollingBot {
     public String getBotToken() {
         return "811757014:AAFk8K3UcZ1AhuN3404qI00koKGDinzoKTc";
     }
-
 
 }

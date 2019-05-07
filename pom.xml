@@ -72,8 +72,8 @@
 
         <dependency>
             <groupId>org.telegram</groupId>
-            <artifactId>telegrambots</artifactId>
-            <version>3.5</version>
+            <artifactId>telegrambots-meta</artifactId>
+            <version>4.0.0</version>
         </dependency>
 
         <dependency>
@@ -97,9 +97,10 @@
         </dependency>
         <dependency>
             <groupId>org.telegram</groupId>
-            <artifactId>telegrambots-meta</artifactId>
+            <artifactId>telegrambots</artifactId>
             <version>4.2</version>
         </dependency>
+
 
     </dependencies>
 

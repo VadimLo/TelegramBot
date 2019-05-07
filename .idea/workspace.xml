@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8981d73-761a-4bdf-bb01-c2e053c2c58b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soft/vadim/url/UrlParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/a43cf152bf5415ec9de23a8720cb2d30_187945_1556570096.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/soft/vadim/test/urlparsertest/UrlParserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/soft/vadim/bot/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft/vadim/bot/Bot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft/vadim/song/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft/vadim/song/Song.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/vadim/bot/Bot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/soft/vadim/start/AppStart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft/vadim/download/Download.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft/vadim/download/Download.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/soft/vadim/start/AppStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soft/vadim/start/AppStart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/soft/vadim/test/httpconnectiontest/HttpUrlConnectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/soft/vadim/test/httpconnectiontest/HttpUrlConnectionTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,34 +26,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/soft/vadim/test/httpconnectiontest/HttpUrlConnectionTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/request.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="920">
-              <caret line="53" column="102" selection-start-line="53" selection-start-column="102" selection-end-line="53" selection-end-column="102" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/soft/vadim/start/AppStart.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="3500">
+              <caret line="175" column="139" selection-start-line="175" selection-start-column="137" selection-end-line="175" selection-end-column="139" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/soft/vadim/bot/Bot.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/soft/vadim/url/UrlParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="36" column="52" lean-forward="true" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
+            <state relative-caret-position="49">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/soft/vadim/test/urlparsertest/UrlParserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,10 +56,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/soft/vadim/director/Director.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/dsvd.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            <state relative-caret-position="320">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/soft/vadim/download/Download.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,29 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="75" column="24" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/log_file.log">
-          <provider selected="true" editor-type-id="LogFileEditorProvider">
-            <state relative-caret-position="6280">
-              <caret line="314" column="46" selection-start-line="314" selection-start-column="46" selection-end-line="314" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/soft/vadim/httpconnection/HttpUrlConnection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1500">
+              <caret line="75" column="26" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -156,6 +141,8 @@
       <find>text-right</find>
       <find>pan ng-click=&quot;songClick(song, $index)&quot;</find>
       <find>onUpdateReceived</find>
+      <find>extra</find>
+      <find>cs</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -166,24 +153,27 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/soft/vadim/Bot.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/soft/vadim/start/AppStart.java" />
         <option value="$PROJECT_DIR$/src/main/Procfile" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/src/main/java/com/soft/vadim/httpconnection/HttpUrlConnectionSt.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/soft/vadim/download/Download.java" />
         <option value="$PROJECT_DIR$/src/main/resources/request.html" />
         <option value="$PROJECT_DIR$/src/main/resources/Скачать музыку с Вконтакте - KissVK.html" />
-        <option value="$PROJECT_DIR$/src/test/java/com/soft/vadim/test/httpconnectiontest/HttpUrlConnectionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/soft/vadim/httpconnection/HttpUrlConnection.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/soft/vadim/song/Songs.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/request.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/soft/vadim/song/Example.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/soft/vadim/director/Director.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/soft/vadim/test/directortest/DirectorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/soft/vadim/song/ListSongs.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/soft/vadim/song/Song.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/soft/vadim/download/Download.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/soft/vadim/start/AppStart.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/request.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/soft/vadim/bot/Bot.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/soft/vadim/test/httpconnectiontest/HttpUrlConnectionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/dsvd.js" />
+        <option value="$PROJECT_DIR$/src/test/java/com/soft/vadim/test/urlparsertest/UrlParserTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/soft/vadim/url/UrlParser.java" />
       </list>
     </option>
   </component>
@@ -206,7 +196,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -299,6 +288,15 @@
               <item name="TelegramBot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vadim" type="462c0819:PsiDirectoryNode" />
+              <item name="url" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TelegramBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TelegramBot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -340,11 +338,21 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="httpconnectiontest" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="TelegramBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TelegramBot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="urlparsertest" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -353,6 +361,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.soft.vadim.bot" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Java\TelegramBot\src\main\resources" />
       <recent name="D:\Java\TelegramBot\src" />
@@ -371,7 +382,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AppStart">
+  <component name="RunManager" selected="JUnit.UrlParserTest.shouldWorkFunO">
     <configuration name="AppStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="12 (2)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -387,23 +398,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DirectorTest.shouldReturnList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TelegramBot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.soft.vadim.test.directortest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.soft.vadim.test.directortest" />
-      <option name="MAIN_CLASS_NAME" value="com.soft.vadim.test.directortest.DirectorTest" />
-      <option name="METHOD_NAME" value="shouldReturnList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HttpUrlConnectionTest.shouldAuthVk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HttpUrlConnectionTest.shouldCreateDownloadUrl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TelegramBot" />
       <extension name="coverage">
         <pattern>
@@ -413,13 +408,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.soft.vadim.test.httpconnectiontest" />
       <option name="MAIN_CLASS_NAME" value="com.soft.vadim.test.httpconnectiontest.HttpUrlConnectionTest" />
-      <option name="METHOD_NAME" value="shouldAuthVk" />
+      <option name="METHOD_NAME" value="shouldCreateDownloadUrl" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HttpUrlConnectionTest.shouldWork" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HttpUrlConnectionTest.shouldDowwmloadHtmlToDoc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TelegramBot" />
       <extension name="coverage">
         <pattern>
@@ -429,24 +424,56 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.soft.vadim.test.httpconnectiontest" />
       <option name="MAIN_CLASS_NAME" value="com.soft.vadim.test.httpconnectiontest.HttpUrlConnectionTest" />
-      <option name="METHOD_NAME" value="shouldWork" />
+      <option name="METHOD_NAME" value="shouldDowwmloadHtmlToDoc" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UrlParserTest.shouldWorkFunO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TelegramBot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft.vadim.test.urlparsertest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.soft.vadim.test.urlparsertest" />
+      <option name="MAIN_CLASS_NAME" value="com.soft.vadim.test.urlparsertest.UrlParserTest" />
+      <option name="METHOD_NAME" value="shouldWorkFunO" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.soft.vadim.test in TelegramBot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TelegramBot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft.vadim.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.soft.vadim.test" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.AppStart" />
-      <item itemvalue="JUnit.DirectorTest.shouldReturnList" />
-      <item itemvalue="JUnit.HttpUrlConnectionTest.shouldAuthVk" />
-      <item itemvalue="JUnit.HttpUrlConnectionTest.shouldWork" />
+      <item itemvalue="JUnit.HttpUrlConnectionTest.shouldCreateDownloadUrl" />
+      <item itemvalue="JUnit.HttpUrlConnectionTest.shouldDowwmloadHtmlToDoc" />
+      <item itemvalue="JUnit.com.soft.vadim.test in TelegramBot" />
+      <item itemvalue="JUnit.UrlParserTest.shouldWorkFunO" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UrlParserTest.shouldWorkFunO" />
+        <item itemvalue="JUnit.com.soft.vadim.test in TelegramBot" />
+        <item itemvalue="JUnit.HttpUrlConnectionTest.shouldCreateDownloadUrl" />
+        <item itemvalue="JUnit.HttpUrlConnectionTest.shouldDowwmloadHtmlToDoc" />
         <item itemvalue="Application.AppStart" />
-        <item itemvalue="JUnit.DirectorTest.shouldReturnList" />
-        <item itemvalue="JUnit.HttpUrlConnectionTest.shouldAuthVk" />
-        <item itemvalue="JUnit.HttpUrlConnectionTest.shouldWork" />
       </list>
     </recent_temporary>
   </component>
@@ -566,42 +593,49 @@
       <option name="project" value="LOCAL" />
       <updated>1556906343691</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add reply buttons1">
+      <created>1556911237253</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1556911237253</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DirectorTest_shouldReturnList - 2019.05.03 at 12h 47m 47s.xml">
-      <configuration name="DirectorTest.shouldReturnList" configurationId="JUnit" />
+    <history-entry file="UrlParserTest_shouldWorkFunO - 2019.05.07 at 16h 36m 06s.xml">
+      <configuration name="UrlParserTest.shouldWorkFunO" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DirectorTest_shouldReturnList - 2019.05.03 at 12h 48m 30s.xml">
-      <configuration name="DirectorTest.shouldReturnList" configurationId="JUnit" />
+    <history-entry file="UrlParserTest_shouldWorkFunO - 2019.05.07 at 16h 36m 51s.xml">
+      <configuration name="UrlParserTest.shouldWorkFunO" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DirectorTest_shouldReturnList - 2019.05.03 at 12h 54m 39s.xml">
-      <configuration name="DirectorTest.shouldReturnList" configurationId="JUnit" />
+    <history-entry file="UrlParserTest_shouldWorkFunO - 2019.05.07 at 16h 38m 28s.xml">
+      <configuration name="UrlParserTest.shouldWorkFunO" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DirectorTest_shouldReturnList - 2019.05.03 at 12h 55m 40s.xml">
-      <configuration name="DirectorTest.shouldReturnList" configurationId="JUnit" />
+    <history-entry file="UrlParserTest_shouldWorkFunO - 2019.05.07 at 16h 39m 29s.xml">
+      <configuration name="UrlParserTest.shouldWorkFunO" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DirectorTest_shouldReturnList - 2019.05.03 at 12h 58m 52s.xml">
-      <configuration name="DirectorTest.shouldReturnList" configurationId="JUnit" />
+    <history-entry file="UrlParserTest_shouldWorkFunO - 2019.05.07 at 16h 41m 13s.xml">
+      <configuration name="UrlParserTest.shouldWorkFunO" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DirectorTest_shouldReturnList - 2019.05.03 at 13h 04m 23s.xml">
-      <configuration name="DirectorTest.shouldReturnList" configurationId="JUnit" />
+    <history-entry file="UrlParserTest_shouldWorkFunO - 2019.05.07 at 16h 42m 54s.xml">
+      <configuration name="UrlParserTest.shouldWorkFunO" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HttpUrlConnectionTest_shouldAuthVk - 2019.05.03 at 13h 13m 24s.xml">
-      <configuration name="HttpUrlConnectionTest.shouldAuthVk" configurationId="JUnit" />
+    <history-entry file="UrlParserTest_shouldWorkFunO - 2019.05.07 at 16h 43m 17s.xml">
+      <configuration name="UrlParserTest.shouldWorkFunO" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DirectorTest_shouldReturnList - 2019.05.03 at 13h 23m 37s.xml">
-      <configuration name="DirectorTest.shouldReturnList" configurationId="JUnit" />
+    <history-entry file="UrlParserTest_shouldWorkFunO - 2019.05.07 at 16h 45m 01s.xml">
+      <configuration name="UrlParserTest.shouldWorkFunO" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DirectorTest_shouldReturnList - 2019.05.03 at 13h 24m 03s.xml">
-      <configuration name="DirectorTest.shouldReturnList" configurationId="JUnit" />
+    <history-entry file="UrlParserTest_shouldWorkFunO - 2019.05.07 at 16h 46m 06s.xml">
+      <configuration name="UrlParserTest.shouldWorkFunO" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DirectorTest_shouldReturnList - 2019.05.03 at 13h 57m 52s.xml">
-      <configuration name="DirectorTest.shouldReturnList" configurationId="JUnit" />
+    <history-entry file="UrlParserTest_shouldWorkFunO - 2019.05.07 at 16h 46m 15s.xml">
+      <configuration name="UrlParserTest.shouldWorkFunO" configurationId="JUnit" />
     </history-entry>
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -611,7 +645,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
@@ -619,7 +653,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.19369973" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.26742628" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.46676096" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.32931727" />
@@ -627,11 +661,11 @@
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32931727" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32931727" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.3480589" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.04016064" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.3266399" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" weight="0.32956153" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.32931727" />
       <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
@@ -641,34 +675,6 @@
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info id="UI Designer" order="1" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.19101876" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.46676096" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.32931727" />
-      <window_info anchor="bottom" id="Messages" order="2" weight="0.25970548" />
-      <window_info anchor="bottom" id="Version Control" order="3" weight="0.32931727" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.32931727" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.3480589" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" weight="0.32956153" />
-      <window_info anchor="right" id="Theme Preview" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="v2" />
@@ -677,7 +683,8 @@
     <MESSAGE value="get json" />
     <MESSAGE value="parse json" />
     <MESSAGE value="add reply buttons" />
-    <option name="LAST_COMMIT_MESSAGE" value="add reply buttons" />
+    <MESSAGE value="add reply buttons1" />
+    <option name="LAST_COMMIT_MESSAGE" value="add reply buttons1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Procfile" />
@@ -758,43 +765,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/request.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16825">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/soft/vadim/download/Download.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/soft/vadim/test/httpconnectiontest/HttpUrlConnectionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="53" column="102" selection-start-line="53" selection-start-column="102" selection-end-line="53" selection-end-column="102" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/soft/vadim/start/AppStart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/soft/vadim/director/Director.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -824,6 +794,67 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/soft/vadim/test/httpconnectiontest/HttpUrlConnectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1340">
+          <caret line="78" column="427" selection-start-line="78" selection-start-column="427" selection-end-line="78" selection-end-column="427" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soft/vadim/bot/Bot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1120">
+          <caret line="79" column="452" selection-start-line="79" selection-start-column="452" selection-end-line="79" selection-end-column="452" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soft/vadim/start/AppStart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/request.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3500">
+          <caret line="175" column="139" selection-start-line="175" selection-start-column="137" selection-end-line="175" selection-end-column="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dsvd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soft/vadim/download/Download.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="75" column="26" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -861,20 +892,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://C:/Program Files/Java/jdk-12/lib/src.zip!/java.base/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="75" column="24" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
+        <state relative-caret-position="128">
+          <caret line="1543" selection-start-line="1543" selection-end-line="1543" />
+          <folding>
+            <element signature="e#61299#61300#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/soft/vadim/bot/Bot.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/soft/vadim/test/urlparsertest/UrlParserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="36" column="52" lean-forward="true" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
+        <state relative-caret-position="280">
+          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soft/vadim/url/UrlParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>

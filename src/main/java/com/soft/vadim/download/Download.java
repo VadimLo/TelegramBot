@@ -1,6 +1,5 @@
 package com.soft.vadim.download;
 
-import org.telegram.telegrambots.generics.Webhook;
 
 import java.io.*;
 
